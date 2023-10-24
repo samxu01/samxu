@@ -55,5 +55,10 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
             SetCountText();
         }
+        if (other.gameObject.CompareTag("SpeedUp")) 
+        {
+            other.gameObject.SetActive(false);
+            speed = speed * 2;
+        }
     }
 }
