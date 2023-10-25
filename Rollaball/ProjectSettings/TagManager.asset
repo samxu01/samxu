@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PickUp
   - SpeedUp
+  - SpeedDown
+  - Heal
   layers:
   - Default
   - TransparentFX
